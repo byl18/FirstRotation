@@ -66,21 +66,19 @@ As my hand-drawn flowchart showed below, the networks with the dense layer of tw
 
 Flappy Bird converged at about 800,000 step
 
-<video width='500' src="RotationSource\Video\fb.mp4" ></video>
+<img src="RotationSource\Video\FlappyBirdResult.gif" width = "500" />
 
 <img src="RotationSource\train_curve_fb.png"  width = "400"/>
 
 Space Invaders converged at about 50,000 steps (local optimum)
 
-
-
-<video width='500' src="C:\research\LiYinqing\study\SpaceInvaders\result_figure\spaceinvader.mp4"></video>
+<img src="RotationSource\Video\SpaceInvadersResult.gif" width = "500" />
 
 <img src="RotationSource\train_curve_si.png"  width = "400" />
 
 Breakout converged at about 100,000 steps
 
-<video width='500' src="RotationSource\video\bo.mp4"></video>
+<img src="RotationSource\Video\BreakoutResult.gif" width = "500" />
 
 <img src="RotationSource\train_curve_bo.png"  width = "400" />
 
