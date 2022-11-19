@@ -68,6 +68,8 @@ Flappy Bird converged at about 800,000 step
 
 <video width='500' src="RotationSource\video\fb.mp4" ></video>
 
+<iframewidth=500 src="RotationSource\video\fb.mp4">
+
 <img src="RotationSource\train_curve_fb.png"  width = "400"/>
 
 Space Invaders converged at about 50,000 steps (local optimum)
