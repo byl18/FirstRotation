@@ -68,7 +68,7 @@ Flappy Bird converged at about 800,000 step
 
 <video width='500' src="RotationSource\video\fb.mp4" ></video>
 
-<iframewidth=500 src="RotationSource\video\fb.mp4">
+<iframe width=500 src="RotationSource\video\fb.mp4">
 
 <img src="RotationSource\train_curve_fb.png"  width = "400"/>
 
