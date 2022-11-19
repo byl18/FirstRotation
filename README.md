@@ -52,7 +52,9 @@ Use this reinforcement model to train 3 Atari games: Flappy Bird, Space Invaders
 
 After the performance effect gradually converged, terminate the training process and preserve the trained model. 
 
-<img src="RotationSource\flappybird.gif"/> <img src="RotationSource\space_invaders.gif"/><img src="RotationSource\breakout.gif"/>
+<img src="RotationSource\flappybird.gif"/> 
+
+<img src="RotationSource\space_invaders.gif"/><img src="RotationSource\breakout.gif"/>
 
 **4 Transfer learning**
 
