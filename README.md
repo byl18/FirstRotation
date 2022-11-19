@@ -36,15 +36,15 @@ Our idea is to preserve the neural network except for the final output layer. Se
 
 Establish the Resnet network(left) and the traditional CNN network(right) respectively as the shared network. 
 
-<img src="rotationSource\Resnet.png" style="zoom:70%;" />
+<img src="RotationSource\Resnet.png" style="zoom:70%;" />
 
-<img src="rotationSource\BothFlow.png" style="zoom:70%;" />
+<img src="RotationSource\BothFlow.png" style="zoom:70%;" />
 
 **2 Back propagation**
 
  Apply the DQN (shown below) as the back propagation algorithm to update the neural network.
 
-<img src="rotationSource\DQN.png" style="zoom:60%;" /> 
+<img src="RotationSource\DQN.png" style="zoom:60%;" /> 
 
 **3 Model training**
 
@@ -52,13 +52,13 @@ Use this reinforcement model to train 3 Atari games: Flappy Bird, Space Invaders
 
 After the performance effect gradually converged, terminate the training process and preserve the trained model. 
 
-<img src="rotationSource\flappybird.gif" style="zoom:62%;" /> <img src="rotationSource\space_invaders.gif" style="zoom:150%;" /><img src="rotationSource\breakout.gif" style="zoom:150%;" />
+<img src="RotationSource\flappybird.gif" style="zoom:62%;" /> <img src="RotationSource\space_invaders.gif" style="zoom:150%;" /><img src="RotationSource\breakout.gif" style="zoom:150%;" />
 
 **4 Transfer learning**
 
 As my hand-drawn flowchart showed below, the networks with the dense layer of two games for example are trained independently in the step of reinforcement learning. Then the parameters of the Game 1 network except the dense layer are transferred to the Game 2. In this way, if better outputs and less training time to converge are obtained, that suggested that some common pattern may be included in the shared network.
 
-<img src="rotationSource\mydraw.jpg" style="zoom:60%;" />
+<img src="RotationSource\mydraw.jpg" style="zoom:60%;" />
 
 ## Results
 
@@ -66,9 +66,9 @@ As my hand-drawn flowchart showed below, the networks with the dense layer of tw
 
 Flappy Bird converged at about 800,000 step
 
-<video width='500' src="rotationSource\video\fb.mp4" ></video>
+<video width='500' src="RotationSource\video\fb.mp4" ></video>
 
-<img src="rotationSource\train_curve_fb.png" style="zoom:70%;" />
+<img src="RotationSource\train_curve_fb.png" style="zoom:70%;" />
 
 Space Invaders converged at about 50,000 steps (local optimum)
 
@@ -76,25 +76,25 @@ Space Invaders converged at about 50,000 steps (local optimum)
 
 <video width='500' src="C:\research\LiYinqing\study\SpaceInvaders\result_figure\spaceinvader.mp4"></video>
 
-<img src="rotationSource\train_curve_si.png" style="zoom:70%;" />
+<img src="RotationSource\train_curve_si.png" style="zoom:70%;" />
 
 Breakout converged at about 100,000 steps
 
-<video width='500' src="rotationSource\video\bo.mp4"></video>
+<video width='500' src="RotationSource\video\bo.mp4"></video>
 
-<img src="rotationSource\train_curve_bo.png" style="zoom:70%;" />
+<img src="RotationSource\train_curve_bo.png" style="zoom:70%;" />
 
 ### 2 TF can improve the performance of some games
 
-<img src="rotationSource\train_curve_fb.png" style="zoom:70%;" /><img src="rotationSource\tl_fb.png" style="zoom:70%;" />
+<img src="RotationSource\train_curve_fb.png" style="zoom:70%;" /><img src="RotationSource\tl_fb.png" style="zoom:70%;" />
 
 
 
-<img src="rotationSource\train_curve_bo.png" style="zoom:70%;" />
+<img src="RotationSource\train_curve_bo.png" style="zoom:70%;" />
 
 
 
-<img src="rotationSource\train_curve_si.png" style="zoom:70%;" /><img src="rotationSource\tl_si.png" style="zoom:70%;" />
+<img src="RotationSource\train_curve_si.png" style="zoom:70%;" /><img src="RotationSource\tl_si.png" style="zoom:70%;" />
 
 
 
