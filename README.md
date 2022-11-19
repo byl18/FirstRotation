@@ -66,9 +66,7 @@ As my hand-drawn flowchart showed below, the networks with the dense layer of tw
 
 Flappy Bird converged at about 800,000 step
 
-<video width='500' src="RotationSource\video\fb.mp4" ></video>
-
-<iframe width=500 src="RotationSource\video\fb.mp4">
+<video width='500' src="RotationSource\Video\fb.mp4" ></video>
 
 <img src="RotationSource\train_curve_fb.png"  width = "400"/>
 
