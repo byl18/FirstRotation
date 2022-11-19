@@ -92,33 +92,17 @@ Breakout converged at about 100,000 steps
 
 ## Discussion
 
-**Tranfer learning can make up for reinforcement learning**
+**1 Tranfer learning can make up for reinforcement learning in some degree**
 
-RL has a list of pros and cons.
+Although RL can generate experience continuously and decompose problems to a simple form, it still has a list of drawbacks such as the low generalization ability, sparse rewards, and high sensitivity to hyperparameters. On the other hand, TL can combine networks of several games together into a shared network, which can improve the generalization ability to deal with different environments. This shared network can accelerate the convergence of Q value and increase Q value in some cases as shown in part 2 of the Results section. Therefore, it seems like these drawbacks of RL can be compensated in some degree by introducing TL. 
 
-RL pros:
+**2 There exists some common information in the shared network**
 
-Experience can be generated continuously.
+As demomstrated above, one game can use network parameters from another game to improve its training speed and performance. This suggests that some common pattern may be included in the shared network and it represents some underlying logic information hidden in these games. In future research, maybe further common patterns can be dug up from the shared network.
 
-Problems can be decomposed to a simple form.
+**3 Limitations**
 
-RL cons: 
-
-Low generalization ability
-
-Susceptible to hyperparameters
-
-Sparse rewards
-
-Tranfer learning can combine networks of several games together into a shared network which can improve the generalization ability to deal with different environments. This shared network can accelerate the convergence of Q value and increase Q value in some cases as shown in part 2 of the Results section.
-
-**There exists some common information in the shared network**
-
-...
-
-
-
-
+In fact, we have tried lots of other Atari games but most failed to achieve the performance as expected. There are some obvious factors responsible for this. The action spaces of these games are too large (>12) and the rewards of some games are too sparse so that it's hard to train enough in a limited time and memory consumption. Besides we cannot arbitrarily adjust or remove the convolution layer in the pre-trained network because of the shared parameters. Therefore, when importing a pre-trained model, the network structure needs to be the same as the pre-trained network structure for training.
 
 
 
