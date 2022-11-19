@@ -12,7 +12,7 @@ This is the main outcome of the first rotation. If there is any other questions,
 
 [4 Discussion](#Discussion)
 
-[5 Data availability](#DataAvailability)
+[5 Data availability](#Availability)
 
 [6 References](#References)
 
@@ -130,9 +130,9 @@ Tranfer learning can combine networks of several games together into a shared ne
 
 
 
-## <a href="#DataAvailability">Data availability</a>
+## Data availability
 
-Any methods, additional references, source data, extended data, supplementary information and statements of data and code availability are available at ...
+Any methods, additional references, source data, extended data, supplementary information and statements of data and codes are available at ...
 
 ## References
 
