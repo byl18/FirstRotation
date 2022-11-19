@@ -132,7 +132,7 @@ Tranfer learning can combine networks of several games together into a shared ne
 
 <h2 id="MrWhite">Data availability</h2>
 
-Any methods, additional references, source data, extended data, supplementary information and statements of data and codes are available at ...
+Any methods, additional references, source data, extended data, supplementary information and statements of data and codes are available at [my github](https://github.com/byl18/FirstRotation)
 
 ## References
 
