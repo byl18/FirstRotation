@@ -46,7 +46,7 @@ Establish the Resnet network(left) and the traditional CNN network(right) respec
 
  Apply the DQN (shown below) as the back propagation algorithm to update the neural network.
 
-<img src="RotationSource\DQN.png" style="zoom:60%;" /> 
+<img src="RotationSource\DQN.png"  width = "500" /> 
 
 **3 Model training**
 
@@ -60,7 +60,7 @@ After the performance effect gradually converged, terminate the training process
 
 As my hand-drawn flowchart showed below, the networks with the dense layer of two games for example are trained independently in the step of reinforcement learning. Then the parameters of the Game 1 network except the dense layer are transferred to the Game 2. In this way, if better outputs and less training time to converge are obtained, that suggested that some common pattern may be included in the shared network.
 
-<img src="RotationSource\mydraw.jpg" style="zoom:60%;" />
+<img src="RotationSource\mydraw.jpg"  width = "500" />
 
 ## Results
 
@@ -70,7 +70,7 @@ Flappy Bird converged at about 800,000 step
 
 <video width='500' src="RotationSource\video\fb.mp4" ></video>
 
-<img src="RotationSource\train_curve_fb.png" style="zoom:70%;" />
+<img src="RotationSource\train_curve_fb.png"  width = "500"/>
 
 Space Invaders converged at about 50,000 steps (local optimum)
 
@@ -78,25 +78,25 @@ Space Invaders converged at about 50,000 steps (local optimum)
 
 <video width='500' src="C:\research\LiYinqing\study\SpaceInvaders\result_figure\spaceinvader.mp4"></video>
 
-<img src="RotationSource\train_curve_si.png" style="zoom:70%;" />
+<img src="RotationSource\train_curve_si.png"  width = "500" />
 
 Breakout converged at about 100,000 steps
 
 <video width='500' src="RotationSource\video\bo.mp4"></video>
 
-<img src="RotationSource\train_curve_bo.png" style="zoom:70%;" />
+<img src="RotationSource\train_curve_bo.png"  width = "500" />
 
 ### 2 TF can improve the performance of some games
 
-<img src="RotationSource\train_curve_fb.png" style="zoom:70%;" /><img src="RotationSource\tl_fb.png" style="zoom:70%;" />
+<img src="RotationSource\train_curve_fb.png"  width = "500" /><img src="RotationSource\tl_fb.png"  width = "500" />
 
 
 
-<img src="RotationSource\train_curve_bo.png" style="zoom:70%;" />
+<img src="RotationSource\train_curve_bo.png"  width = "500" />
 
 
 
-<img src="RotationSource\train_curve_si.png" style="zoom:70%;" /><img src="RotationSource\tl_si.png" style="zoom:70%;" />
+<img src="RotationSource\train_curve_si.png"  width = "500" /><img src="RotationSource\tl_si.png"  width = "500" />
 
 
 
