@@ -4,7 +4,7 @@ This is the main outcome of the first rotation. If there is any other questions,
 
 ## Content
 
-[1 Aim](#References)
+[1 Aim](#Aim)
 
 [2 Pipeline](#Pipeline)
 
@@ -130,7 +130,7 @@ Tranfer learning can combine networks of several games together into a shared ne
 
 
 
-## <a href="#DataAvailability" >Data availability</a>
+## <a href="#DataAvailability">Data availability</a>
 
 Any methods, additional references, source data, extended data, supplementary information and statements of data and code availability are available at ...
 
