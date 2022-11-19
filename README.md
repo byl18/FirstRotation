@@ -82,15 +82,9 @@ Figures below show RL only training curves(left) and RL + TL training curves res
 
 <img src="RotationSource\train_curve_fb.png"  width = "400" /><img src="RotationSource\tl_fb.png"  width = "400" />
 
-
-
-<img src="RotationSource\train_curve_bo.png"  width = "400" />
-
-
-
 <img src="RotationSource\train_curve_si.png"  width = "400" /><img src="RotationSource\tl_si.png"  width = "400" />
 
-
+<img src="RotationSource\train_curve_bo.png"  width = "400" /><img src="RotationSource\tl_bo.png"  width = "400" />
 
 ## Discussion
 
