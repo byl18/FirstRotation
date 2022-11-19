@@ -12,7 +12,7 @@ This is the main outcome of the first rotation. If there is any other questions,
 
 [4 Discussion](#Discussion)
 
-[5 Data availability](#Availability)
+[5 Data availability](#Data availability)
 
 [6 References](#References)
 
