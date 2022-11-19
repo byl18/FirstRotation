@@ -38,9 +38,9 @@ Establish the Resnet network(left) and the traditional CNN network(right) respec
 
 <img src="RotationSource\Resnet.png" style="zoom:70%;" />
 
-<img src="RotationSource\Resnet.png" width = "300" height = "200" />
+<img src="RotationSource\Resnet.png" width = "300" />
 
-<img src="RotationSource\BothFlow.png" style="zoom:70%;" />
+<img src="RotationSource\BothFlow.png" width = "500" />
 
 **2 Back propagation**
 
