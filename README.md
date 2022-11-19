@@ -66,21 +66,15 @@ As my hand-drawn flowchart showed below, the networks with the dense layer of tw
 
 Flappy Bird converged at about 800,000 step
 
-<img src="RotationSource\Video\FlappyBirdResult.gif" width = "500" />
-
-<img src="RotationSource\train_curve_fb.png"  width = "400"/>
+<img src="RotationSource\Video\FlappyBirdResult.gif" width = "500" /> <img src="RotationSource\train_curve_fb.png"  width = "400"/>
 
 Space Invaders converged at about 50,000 steps (local optimum)
 
-<img src="RotationSource\Video\SpaceInvadersResult.gif" width = "500" />
-
-<img src="RotationSource\train_curve_si.png"  width = "400" />
+<img src="RotationSource\Video\SpaceInvadersResult.gif" width = "500" /> <img src="RotationSource\train_curve_si.png"  width = "400" />
 
 Breakout converged at about 100,000 steps
 
-<img src="RotationSource\Video\BreakoutResult.gif" width = "500" />
-
-<img src="RotationSource\train_curve_bo.png"  width = "400" />
+<img src="RotationSource\Video\BreakoutResult.gif" width = "500" /> <img src="RotationSource\train_curve_bo.png"  width = "400" />
 
 ### 2 TF can improve the performance of some games
 
