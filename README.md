@@ -78,6 +78,8 @@ Breakout converged at about 100,000 steps
 
 ### 2 TF can improve the performance of some games
 
+Figures below show RL only training curves(left) and RL + TL training curves respectively.
+
 <img src="RotationSource\train_curve_fb.png"  width = "400" /><img src="RotationSource\tl_fb.png"  width = "400" />
 
 
