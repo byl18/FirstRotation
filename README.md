@@ -36,8 +36,6 @@ Our idea is to preserve the neural network except for the final output layer. Se
 
 Establish the Resnet network(left) and the traditional CNN network(right) respectively as the shared network. 
 
-<img src="RotationSource\Resnet.png" style="zoom:70%;" />
-
 <img src="RotationSource\Resnet.png" width = "300" />
 
 <img src="RotationSource\BothFlow.png" width = "500" />
@@ -70,7 +68,7 @@ Flappy Bird converged at about 800,000 step
 
 <video width='500' src="RotationSource\video\fb.mp4" ></video>
 
-<img src="RotationSource\train_curve_fb.png"  width = "500"/>
+<img src="RotationSource\train_curve_fb.png"  width = "400"/>
 
 Space Invaders converged at about 50,000 steps (local optimum)
 
@@ -78,25 +76,25 @@ Space Invaders converged at about 50,000 steps (local optimum)
 
 <video width='500' src="C:\research\LiYinqing\study\SpaceInvaders\result_figure\spaceinvader.mp4"></video>
 
-<img src="RotationSource\train_curve_si.png"  width = "500" />
+<img src="RotationSource\train_curve_si.png"  width = "400" />
 
 Breakout converged at about 100,000 steps
 
 <video width='500' src="RotationSource\video\bo.mp4"></video>
 
-<img src="RotationSource\train_curve_bo.png"  width = "500" />
+<img src="RotationSource\train_curve_bo.png"  width = "400" />
 
 ### 2 TF can improve the performance of some games
 
-<img src="RotationSource\train_curve_fb.png"  width = "500" /><img src="RotationSource\tl_fb.png"  width = "500" />
+<img src="RotationSource\train_curve_fb.png"  width = "400" /><img src="RotationSource\tl_fb.png"  width = "400" />
 
 
 
-<img src="RotationSource\train_curve_bo.png"  width = "500" />
+<img src="RotationSource\train_curve_bo.png"  width = "400" />
 
 
 
-<img src="RotationSource\train_curve_si.png"  width = "500" /><img src="RotationSource\tl_si.png"  width = "500" />
+<img src="RotationSource\train_curve_si.png"  width = "400" /><img src="RotationSource\tl_si.png"  width = "400" />
 
 
 
