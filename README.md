@@ -4,7 +4,7 @@ This is the main outcome of the first rotation. If there is any other questions,
 
 ## Content
 
-[1 Aim](# Aim)
+[1 Aim](#Aim)
 
 [2 Pipeline](#Pipeline)
 
@@ -12,7 +12,7 @@ This is the main outcome of the first rotation. If there is any other questions,
 
 [4 Discussion](#Discussion)
 
-[5 Data availability](# Data availability)
+[5 Data availability](#(Data availability))
 
 [6 References](#References)
 
